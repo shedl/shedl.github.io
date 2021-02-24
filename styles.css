@@ -38,7 +38,7 @@ html, body {
 .carousel-inner img {
   width: 100%;
   height: 100%;
-  min-height:350px;
+  min-height:400px;
   object-fit:cover;
 }
 .carousel-caption {
@@ -91,10 +91,31 @@ footer p {
 }
 footer h5 {
   color: #F5A81B;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .icon {
   padding-top: 1rem;
 }
 .fa-bars {
   color: #F8F3CA;
+}
+.light {
+  border-top: 2px solid #F5A81B;
+}
+/* unvisited link */
+.genlink:link {
+  color: #F8F3CA;
+}
+/* visited link */
+.genlink:visited {
+  color: #F8F3CA;
+}
+/* mouse over link */
+.genlink:hover {
+  color: #F5A81B;
+}
+/* selected link */
+.genlink:active {
+  color: #4C63CD;
 }
