@@ -6,6 +6,10 @@ html, body {
   font-family: 'Nunito', sans-serif;
   color: #222;
   scroll-behavior: smooth;
+  background-color: #F8F3CA;
+}
+.bgindex {
+  background-color: white;
 }
 .navbar {
   padding: .8rem;
@@ -118,4 +122,65 @@ footer h5 {
 /* selected link */
 .genlink:active {
   color: #4C63CD;
+}
+p.intro {
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  font-size: 125%;
+}
+.bodystyle {
+  width: 70%;
+  background-color: white;
+  min-height: 50%;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image-fluid img {
+  width: 100%;
+  height: 100%;
+  min-height:400px;
+  object-fit:cover;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-fluid h2 {
+  font-size: 300%;
+  text-shadow: 1px 1px 15px #000;
+  color: white;
+  text-align: center;
+}
+p {
+  text-align: left;
+}
+.image-thumbnail {
+  width: 500px;
+}
+.shade {
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 1.19);
+}
+.aboutme {
+  width: 80%;
+  padding: 2rem;
+}
+.contact {
+  width: 50%;
+  padding: 2rem;
+}
+.my-4 {
+  width: 90%;
+}
+.blockquote-footer {
+  background-color: inherit;
+}
+.blockquote {
+  border-left-style: solid;
+  border-left-color: #222;
+  border-left-width: 3px;
+  padding-left: 1rem;
 }
